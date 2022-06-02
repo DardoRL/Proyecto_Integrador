@@ -13,6 +13,12 @@ body{
   width: 85%;
   max-width: 850px;
   margin: 0 auto;
+  align-items: center;
+}
+img{
+  object-fit: contain;
+  max-width: 50%;
+  height: auto;
 }
 .header{
   background: #333;
@@ -39,36 +45,45 @@ h1{
 /*Estilos de Grid Productos*/
 .item1 {
   margin-top: 3rem;
-  border: 4px solid #7FB3D5;
+  background-color: #7FB3D5;
   border-radius: 10px;
   padding: 4rem;
-  }
-.item2 {
-  border: 4px solid #7FB3D5;
+  font-size: 2rem;
+  text-align: center;
+}
+.item2{
+  background-color: #7FB3D5;
   border-radius: 10px;
   padding: 4rem;
-  /*background-image: url(../images/BuzoOK.png);*/
+  font-size: 2rem;
+  text-align: center;
   }
 .item3 {
-  border: 4px solid #7FB3D5;
+  background-color: #7FB3D5;
   border-radius: 10px;
   padding: 4rem;
+  font-size: 2rem;
+  text-align: center;
   }
 .item4 {
-  border: 4px solid #7FB3D5;
+  background-color: #7FB3D5;
   border-radius: 10px;
   padding: 4rem;
+  font-size: 2rem;
+  text-align: center;
   }
 .item5 {
-    border: 4px solid #7FB3D5;
+  background-color: #7FB3D5;
     border-radius: 10px;
     padding: 4rem;
+    font-size: 2rem;
+    text-align: center;
     }
-  .grid-products {
-  /*background-image: url(../images/Promo_1.jpg);*/
+.grid-products {
   display: grid;
   gap: 1rem;
-  } 
+  justify-content: center;
+} 
 /* Estilos Nav */
 .logo-nav-container{
   display: flex;
